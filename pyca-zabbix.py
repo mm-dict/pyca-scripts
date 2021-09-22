@@ -81,7 +81,7 @@ def main():
                         help="Options: agentstate, capture, ingest and schedule.")
     parser.add_option("--host", dest="host", default="localhost",
                       help="Ip address for the pyca agent, default is localhost")
-    parser.add_option("-p", "--port", dest="port", default="80",
+    parser.add_option("--port", dest="port", default="80",
                       help="Port for the pyca rest interface, default is 80")
     parser.add_option("-u", "--user", dest="user", default="admin",
                       help="User to use for authentication")
